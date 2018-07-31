@@ -1,6 +1,6 @@
 
 #IMAGE: Get the base image for Liberty
-FROM websphere-liberty:webProfile7
+FROM websphere-liberty:webProfile6
 
 #BINARIES: Add in all necessary application binaries
 COPY ./server.xml /config
