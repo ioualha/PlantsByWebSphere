@@ -11,6 +11,6 @@ COPY ./binary/application/* /config/dropins/
 RUN apt-get update && apt-get dist-upgrade -y && apt-get install -y \
 && rm -rf /var/lib/apt/lists/*
 RUN /opt/ibm/wlp/bin/installUtility install  --acceptLicense \
-	jsp-2.3 \
+	jsf-2.0 \
 	jdbc-4.1; exit 0
 
